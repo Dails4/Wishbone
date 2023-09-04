@@ -1,0 +1,142 @@
+ 
+
+@media (max-width: 1200px) {
+    .nav {
+        padding: 22px 40px;
+    }
+    .nav-links {
+        gap: 15px;
+    }
+    .header-content {
+        flex-wrap: wrap;
+    }
+
+    .header-text {
+        margin: 50px auto;
+        max-width: 400px;
+    }
+    .header-title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .header-paragraph {
+        color: #403E3B;
+        padding-bottom: 35px;
+    }
+    .header-img{
+        width: 50%;
+    }
+    .clients-content {
+        padding: 100px 40px;
+    }
+    .team-members {
+        gap: 25px 100px;
+    }
+}
+
+@media (max-width: 859px) {
+    .nav-link {
+        display: none;
+    }
+    .nav-btn {
+        display: block;
+    }
+    .mobile-nav_active{
+        display: block;
+    }
+    .nav-link{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .nav-link:last-child{
+        width: 110px;
+        bottom: -20px;
+    }
+    .header-content {
+        padding: 30px 0;
+    }
+    .header-text {
+        margin: 20px auto;
+        max-width: 600px;
+    }
+    .header-title {
+        padding-top: 0;
+        padding-bottom: 10px;
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .header-paragraph {
+        color: #403E3B;
+        padding-bottom: 15px;
+    }
+    .header-img{
+        border-radius: 20px;
+        width: 90%;
+    }
+    .process-steps {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .step + .step{
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    
+    .firm-content {
+        padding: 80px 0 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .firm-title {
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+    .clients-content {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .clients-logotypes {
+        grid-gap: 50px;
+    }
+    .team-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .team-members {
+        gap: 15px 30px;
+    }
+    .touch-content {
+        padding: 0 20px;
+    }
+    .touch-title {
+        font-size: 30px;
+    }
+    .footer {
+        padding: 60px 20px;
+    }
+}
+@media (max-width: 420px) {
+    .nav {
+        padding: 22px 40px 22px 10px;
+    }
+    .header-img{
+        border-radius: 10px;
+    }
+    .header-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .project-bg {
+        width: 90%;
+    }
+    .team-members {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
